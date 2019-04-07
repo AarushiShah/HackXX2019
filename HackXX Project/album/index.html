@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Album example for Bootstrap</title>
+    <title>Your Trips</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../../../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
         </div>
       </div>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top topColor">
-            <a class="navbar-brand topColor" href="#">Carpool Buddy</a>
+            <a class="navbar-brand topColor" href="#">Menu</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,11 +55,11 @@
                   <a class="nav-link" href="../SignIn.html">Login</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle topColor" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                  <a class="nav-link dropdown-toggle topColor" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">View My Trips</a>
-                    <a class="dropdown-item" href="../request/index.html">Request a Ride</a>
-                    <a class="dropdown-item" href="../checkout/index.html">Post a Ride</a>
+                    <a class="dropdown-item" href="index.html">View My Trips</a>
+                    <a class="dropdown-item" href="../checkout/index.html">Request a Ride</a>
+                    <a class="dropdown-item" href="../request/index.html">Post a Ride</a>
                   </div>
                 </li>
               </ul>
@@ -77,10 +77,10 @@
       <section class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">My Trips</h1>
-          <p class="lead text-muted">Click My Drives to show upcoming trips in which you are the driver. <br> Click My Rides to show upcoming trips in which you are the passenger.</p>
+          <p class="lead ">Click My Drives to show upcoming trips in which you are the driver. <br> Click My Rides to show upcoming trips in which you are the passenger.</p>
           <p>
-            <a href="#" class="btn btn-secondary my-2 drive">My Drives</a>
-            <a href="#" class="btn btn-secondary my-2 ride">My Rides</a>
+            <a href="#" class="btn btn-secondary my-2 drive newColor">My Drives</a>
+            <a href="#" class="btn btn-secondary my-2 ride newColor">My Rides</a>
           </p>
         </div>
       </section>
@@ -95,7 +95,7 @@
                 <div class="card-body">
                   <p class="card-text"><strong>UCSD to UCLA</strong> <br> 05/21/19 at 9:30am <br> 4 seats available <br> Notes: Meet at PC Loop</p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
+                    <div class="btn-group newColor">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
@@ -375,13 +375,10 @@
 
     </main>
 
-    <footer class="text-muted">
+    <footer class="lead">
       <div class="container">
-        <p class="float-right">
+        <p class="float-right ">
           <a href="#">Back to top</a>
-        </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
       </div>
     </footer>
 
