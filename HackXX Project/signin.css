@@ -59,13 +59,11 @@ body {
   background-color:#0c056d;
 }
 
+.text{
+  text-color: white;
+}
+
 .topColor {
   background-color: #09034b;
   color: #8481a5;
 }
-
-.container {
-  max-width: 960px;
-  padding-top: 3.5rem;
-}
-

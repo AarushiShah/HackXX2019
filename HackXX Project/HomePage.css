@@ -2,21 +2,21 @@
 body {
     padding-top: 3.5rem;
   }
-  
+
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
   }
-  
+
   .customJumbotron {
     background-color: #0c056d;
     background-image: linear-gradient(#0c056d, #590d82);
-  
+
     color:#ffffff;
   }
-  
+
   .newColor {
     background-color: #ffffff;
     color: #0c056d;
@@ -25,13 +25,13 @@ body {
   .newColor:hover {
     background-color:#0c056d;
   }
-  
+
   .greyButtons {
     background-color: #be9bdc;
     color:  #ffffff;
     border: #0c056d;
   }
-  
+
   .greyButtons:hover {
     background-color: #0c056d;
   }
