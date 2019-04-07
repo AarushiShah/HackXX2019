@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing Web Page </title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body style="background-color: #ffd7e8;">
+
+        <h3> Contact Me</h3>
+        <ul>
+            <li>408-999-9999</li>
+            <li>a3shah@ucsd.edu</li>
+        </ul>
+        <hr size="3" noshade="">
+        <h3> Driving Post</h3>
+        <!-- action will take it back to that file once you click submit-->
+        <form class="" action="html_test.html" method="post">
+                <label for="date">Date and Time of Departure : </label>
+                <input type="datetime-local" id="start" name="trip-start"
+                value="2019-04-06T19:30"
+                min="2019-04-06T19:30" max="2022-06-14T00:00">
+                <br>
+                <label>Leave from : </label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label>Destination : </label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label>Number of Passengers? </label>
+                <input type="number" id="tentacles" name="tentacles"
+                min="1" max="10">
+                <br>
+                <input type="submit" value="Submit">
+        </form>
+      
+
+
+    </body>
+</html>
